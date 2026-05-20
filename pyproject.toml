@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'python-datascience-esst-2260513'
+version = '1.0.0'
+description = 'Repository for LinkedIn learning module "Python for Data Science".'
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+#    "pytest>=9.0.3",
+#    "adafruit_dht>=1.4.0",
+#    "prettytable>=3.17.0",
+    "pandas>=3.0.3",
+    "numpy>=2.4.6"
+]
+license = { text = "none" }
+authors = [
+    { name = 'Lilian Pierson'},
+    { name = 'Ralph Steyer'},
+    { name = 'Thorsten Wefers', email = 'thorsten.wefers@volkswagen.de'}
+]
+keywords = ["python", "training_ground"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+#    "License :: ",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tws70/python-datascience-esst-2260513"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+
+# 'Installation' mittels pyproject.toml
+# pip install . 
+
+# 'Uninstall' mittels pyproject.toml
+# pip uninstall c2c
+
+# Development mode
+# pip install -e .
