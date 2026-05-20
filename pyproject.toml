@@ -12,8 +12,8 @@ dependencies = [
 #    "pytest>=9.0.3",
 #    "adafruit_dht>=1.4.0",
 #    "prettytable>=3.17.0",
-    "pandas>=3.0.3",
-    "numpy>=2.4.6"
+    "pandas==2.2.3",
+    "numpy==2.0.2"
 ]
 license = { text = "none" }
 authors = [
