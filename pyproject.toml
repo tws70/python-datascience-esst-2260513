@@ -13,7 +13,8 @@ dependencies = [
 #    "adafruit_dht>=1.4.0",
 #    "prettytable>=3.17.0",
     "pandas==2.2.3",
-    "numpy==2.0.2"
+    "numpy==2.0.2",
+    "scipy>=1.17.1"
 ]
 license = { text = "none" }
 authors = [
